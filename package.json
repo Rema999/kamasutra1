@@ -1,0 +1,24 @@
+{
+  "name": "kamasutra",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ramin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon --inspect ./dist/index.js",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/mime": "^4.0.0",
+    "@types/node": "^20.12.2",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}

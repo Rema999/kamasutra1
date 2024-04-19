@@ -1,0 +1,6 @@
+/node_modules
+dist
+/.idea
+_server.js
+favicon.ico
+yarn-error.log
